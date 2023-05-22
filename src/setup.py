@@ -90,7 +90,7 @@ setup(
         'Django==2.2.*',
         'djangorestframework==3.9.*',
         'python-dateutil==2.8.*',
-        'requests==2.21.*',
+        'requests>=2.21,<2.32',
         'pytz',
         'django-bootstrap3==11.0.*',
         'django-formset-js-improved==0.5.0.2',
